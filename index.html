@@ -1,1349 +1,832 @@
 <!doctype html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#171615" />
-  <meta name="description" content="SP Events Planner plans weddings, corporate events, private celebrations and event decor in Gurugram, Haryana. Contact our team to discuss your event." />
-  <meta name="robots" content="index, follow, max-image-preview:large" />
-  <link rel="canonical" href="https://speventsplanner.com/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="SP Events Planner" />
-  <meta property="og:title" content="SP Events Planner | Event Planner in Gurugram" />
-  <meta property="og:description" content="Weddings, corporate events and celebrations in Gurugram, planned with creativity and care." />
-  <meta property="og:url" content="https://speventsplanner.com/" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="SP Events Planner | Event Planner in Gurugram" />
-  <meta name="twitter:description" content="Weddings, corporate events and celebrations in Gurugram, planned with creativity and care." />
-  <title>SP Events Planner | Event Planner in Gurugram, Haryana</title>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      { "@type": "WebSite", "@id": "https://speventsplanner.com/#website", "url": "https://speventsplanner.com/", "name": "SP Events Planner", "publisher": { "@id": "https://speventsplanner.com/#business" }, "inLanguage": "en-IN" },
-      {
-        "@type": "ProfessionalService",
-        "@id": "https://speventsplanner.com/#business",
-        "name": "SP Events Planner",
-        "alternateName": "S&P Wedding Decor",
-        "url": "https://speventsplanner.com/",
-        "description": "Event planning, wedding planning, event decor and coordination for weddings, corporate events and private celebrations in Gurugram, Haryana and the surrounding area.",
-        "email": "s&pweddingdecor@gmail.com",
-        "telephone": "+91-70489-55221",
-        "address": { "@type": "PostalAddress", "streetAddress": "House No. 120, Road No. 1, Shyam Kunj, Bhondsi", "addressLocality": "Gurugram", "addressRegion": "Haryana", "postalCode": "122102", "addressCountry": "IN" },
-        "geo": { "@type": "GeoCoordinates", "latitude": 28.359369, "longitude": 77.072685 },
-        "hasMap": "https://maps.google.com/?q=28.359369,77.072685",
-        "areaServed": [{ "@type": "City", "name": "Gurugram" }, { "@type": "AdministrativeArea", "name": "Delhi NCR" }],
-        "contactPoint": [{ "@type": "ContactPoint", "telephone": "+91-70489-55221", "contactType": "event enquiries" }, { "@type": "ContactPoint", "telephone": "+91-98991-24332", "contactType": "event enquiries" }]
-      }
-    ]
-  }
-  </script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"
-    rel="stylesheet">
-  <style>
-    :root {
-      --wine: #171615;
-      --wine2: #302b24;
-      --rose: #b58b4b;
-      --cream: #f5f2ec;
-      --paper: #fffdfa;
-      --ink: #27211e;
-      --muted: #786e69;
-      --line: #e8ded5;
-      --gold: #c6a15b;
-      --serif: 'Playfair Display', Georgia, serif;
-      --sans: 'DM Sans', Arial, sans-serif
-    }
-
-    * {
-      box-sizing: border-box
-    }
-
-    html {
-      scroll-behavior: smooth
-    }
-
-    body {
-      margin: 0;
-      background: var(--cream);
-      color: var(--ink);
-      font-family: var(--sans);
-      -webkit-font-smoothing: antialiased
-    }
-
-    a {
-      color: inherit;
-      text-decoration: none
-    }
-
-    button,
-    input,
-    textarea {
-      font: inherit
-    }
-
-    .topline {
-      height: 34px;
-      background: #151412;
-      color: #f4e8df;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      letter-spacing: .11em;
-      text-transform: uppercase;
-      font-size: 10px
-    }
-
-    .topline span {
-      color: #d1aa62;
-      margin: 0 9px
-    }
-
-    .nav {
-      height: 86px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0 6.4%;
-      background: rgba(255, 253, 250, .92);
-      border-bottom: 1px solid #e6dfd5;
-      position: sticky;
-      top: 0;
-      z-index: 20;
-      backdrop-filter: blur(14px)
-    }
-
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 12px
-    }
-
-    .brandmark {
-      width: 46px;
-      height: 46px;
-      border: 1px solid var(--gold);
-      border-radius: 50%;
-      display: grid;
-      place-items: center;
-      color: var(--wine);
-      font: italic 21px var(--serif);
-      letter-spacing: -3px;
-      padding-right: 3px
-    }
-
-    .brandtext strong {
-      display: block;
-      font: 600 14px var(--serif);
-      letter-spacing: .13em;
-      color: var(--wine)
-    }
-
-    .brandtext small {
-      display: block;
-      font-size: 8px;
-      text-transform: uppercase;
-      letter-spacing: .23em;
-      color: #8c7d72;
-      margin-top: 4px
-    }
-
-    .navlinks {
-      display: flex;
-      align-items: center;
-      gap: 34px;
-      font-size: 11px;
-      color: #574b46
-    }
-
-    .navlinks a {
-      transition: color .2s
-    }
-
-    .navlinks a:hover {
-      color: var(--rose)
-    }
-
-    .nav-cta,
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      background: var(--wine);
-      color: white;
-      padding: 14px 21px;
-      font-size: 10px;
-      letter-spacing: .12em;
-      text-transform: uppercase;
-      border: 1px solid var(--wine);
-      transition: .25s
-    }
-
-    .nav-cta:hover,
-    .btn:hover {
-      background: var(--wine2);
-      transform: translateY(-2px);
-      box-shadow: 0 10px 25px #511d2c26
-    }
-
-    .mobile-toggle {
-      display: none;
-      border: 0;
-      background: none;
-      color: var(--wine);
-      font-size: 24px
-    }
-
-    .hero {
-      min-height: 660px;
-      height: min(780px, calc(100vh - 120px));
-      position: relative;
-      display: flex;
-      align-items: center;
-      overflow: hidden;
-      background: #30201f
-    }
-
-    .hero:before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(90deg, rgba(31, 19, 20, .78) 0%, rgba(44, 25, 27, .62) 39%, rgba(44, 25, 27, .05) 100%), linear-gradient(0deg, rgba(24, 14, 16, .22), transparent 35%), url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=2200&q=88') center 48%/cover;
-      transform: scale(1.015)
-    }
-
-    .hero-content {
-      position: relative;
-      color: white;
-      width: min(620px, 90%);
-      margin-left: 11.2%;
-      padding: 45px 0
-    }
-
-    .eyebrow {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      color: #dfc18b;
-      text-transform: uppercase;
-      letter-spacing: .24em;
-      font-size: 9px;
-      font-weight: 600
-    }
-
-    .eyebrow:before {
-      content: "";
-      display: block;
-      width: 34px;
-      height: 1px;
-      background: var(--gold)
-    }
-
-    h1 {
-      font: 500 clamp(46px, 6.8vw, 86px)/1.04 var(--serif);
-      letter-spacing: -.04em;
-      margin: 25px 0 20px;
-      max-width: 650px
-    }
-
-    h1 em {
-      font-weight: 500;
-      color: #dfc18b
-    }
-
-    .hero-copy {
-      color: #f1e9e5;
-      font-size: 14px;
-      line-height: 1.8;
-      max-width: 430px;
-      margin: 0 0 30px
-    }
-
-    .hero-actions {
-      display: flex;
-      align-items: center;
-      gap: 25px
-    }
-
-    .btn-light {
-      background: var(--cream);
-      border-color: var(--cream);
-      color: var(--wine)
-    }
-
-    .text-link {
-      display: inline-flex;
-      gap: 9px;
-      align-items: center;
-      font-size: 11px;
-      letter-spacing: .08em
-    }
-
-    .hero-note {
-      position: absolute;
-      right: 6.4%;
-      bottom: 38px;
-      color: #fff;
-      font-size: 9px;
-      text-transform: uppercase;
-      letter-spacing: .17em;
-      writing-mode: vertical-rl;
-      display: flex;
-      gap: 13px;
-      align-items: center
-    }
-
-    .hero-note:after {
-      content: "";
-      height: 45px;
-      width: 1px;
-      background: #ffffff88
-    }
-
-    .trust {
-      background: var(--wine);
-      color: #fbf4ed;
-      padding: 23px 8%;
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      text-align: center
-    }
-
-    .trust-item {
-      border-right: 1px solid #ffffff30
-    }
-
-    .trust-item:last-child {
-      border: 0
-    }
-
-    .trust strong {
-      font: 500 18px var(--serif);
-      display: block
-    }
-
-    .trust small {
-      font-size: 8px;
-      letter-spacing: .18em;
-      text-transform: uppercase;
-      color: #dcc9bd;
-      display: block;
-      margin-top: 4px
-    }
-
-    .section {
-      padding: 112px 8.5%
-    }
-
-    .intro {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 9%;
-      align-items: center
-    }
-
-    .intro-image {
-      position: relative;
-      height: 500px;
-      background: url('https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1100&q=85') center/cover
-    }
-
-    .intro-image:after {
-      content: "";
-      position: absolute;
-      inset: 18px -18px -18px 18px;
-      border: 1px solid var(--gold);
-      z-index: -0
-    }
-
-    .image-caption {
-      position: absolute;
-      bottom: 22px;
-      left: 22px;
-      background: #fffdfaee;
-      padding: 14px 19px;
-      font: italic 15px var(--serif);
-      color: var(--wine);
-      z-index: 1
-    }
-
-    .section-tag {
-      font-size: 9px;
-      letter-spacing: .24em;
-      text-transform: uppercase;
-      color: var(--rose);
-      font-weight: 700
-    }
-
-    .section h2 {
-      font: 500 clamp(36px, 4vw, 54px)/1.12 var(--serif);
-      letter-spacing: -.03em;
-      color: var(--wine);
-      margin: 15px 0 20px
-    }
-
-    .section p {
-      font-size: 13px;
-      line-height: 1.9;
-      color: var(--muted)
-    }
-
-    .intro-copy p {
-      max-width: 480px
-    }
-
-    .signature {
-      font: italic 22px var(--serif);
-      color: var(--wine);
-      margin: 25px 0 27px
-    }
-
-    .arrow-link {
-      color: var(--wine);
-      font-size: 10px;
-      text-transform: uppercase;
-      letter-spacing: .13em;
-      font-weight: 700;
-      display: inline-flex;
-      gap: 12px;
-      align-items: center;
-      border-bottom: 1px solid var(--gold);
-      padding-bottom: 8px
-    }
-
-    .services {
-      background: #eee9e0;
-      padding: 105px 8.5% 115px
-    }
-
-    .section-head {
-      text-align: center;
-      max-width: 600px;
-      margin: 0 auto 50px
-    }
-
-    .section-head p {
-      margin: 0 auto;
-      max-width: 480px
-    }
-
-    .service-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 16px
-    }
-
-    .service-card {
-      background: var(--paper);
-      min-height: 350px;
-      position: relative;
-      overflow: hidden;
-      padding: 0 24px 26px;
-      transition: .3s
-    }
-
-    .service-card:hover {
-      transform: translateY(-7px);
-      box-shadow: 0 20px 40px #3f25141a
-    }
-
-    .service-photo {
-      height: 210px;
-      margin: 0 -24px 21px;
-      background-size: cover;
-      background-position: center;
-      transition: transform .5s
-    }
-
-    .service-card:hover .service-photo {
-      transform: scale(1.03)
-    }
-
-    .s1 {
-      background-image: url('https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=700&q=80')
-    }
-
-    .s2 {
-      background-image: url('https://images.unsplash.com/photo-1537633552985-df8429e8048b?auto=format&fit=crop&w=700&q=80')
-    }
-
-    .s3 {
-      background-image: url('https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=700&q=80')
-    }
-
-    .s4 {
-      background-image: url('https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=700&q=80')
-    }
-
-    .service-card .num {
-      font: italic 14px var(--serif);
-      color: var(--rose);
-      position: absolute;
-      right: 23px;
-      top: 227px
-    }
-
-    .service-card h3 {
-      font: 500 21px var(--serif);
-      color: var(--wine);
-      margin: 0 0 8px
-    }
-
-    .service-card p {
-      font-size: 11px;
-      line-height: 1.65;
-      margin: 0
-    }
-
-    .portfolio {
-      padding: 108px 8.5% 120px
-    }
-
-    .portfolio-head {
-      display: flex;
-      align-items: end;
-      justify-content: space-between;
-      margin-bottom: 35px
-    }
-
-    .portfolio-head h2 {
-      margin-bottom: 0
-    }
-
-    .gallery {
-      display: grid;
-      grid-template-columns: 1.15fr .85fr 1fr;
-      grid-template-rows: 280px 250px;
-      gap: 16px
-    }
-
-    .gallery-item {
-      position: relative;
-      overflow: hidden;
-      background-size: cover;
-      background-position: center
-    }
-
-    .gallery-item:after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(0deg, #1c1011a8, transparent 55%);
-      transition: .3s
-    }
-
-    .gallery-item:hover:after {
-      background: linear-gradient(0deg, #1c1011c9, transparent 68%)
-    }
-
-    .gallery-item:hover {
-      background-size: cover
-    }
-
-    .g1 {
-      grid-row: span 2;
-      background-image: url('https://images.unsplash.com/photo-1507504031003-b417219a0fde?auto=format&fit=crop&w=1000&q=85')
-    }
-
-    .g2 {
-      background-image: url('https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=900&q=85')
-    }
-
-    .g3 {
-      grid-row: span 2;
-      background-image: url('https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?auto=format&fit=crop&w=900&q=85')
-    }
-
-    .g4 {
-      background-image: url('https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=900&q=85')
-    }
-
-    .gallery-label {
-      position: absolute;
-      z-index: 1;
-      bottom: 21px;
-      left: 22px;
-      color: #fff
-    }
-
-    .gallery-label small {
-      display: block;
-      text-transform: uppercase;
-      font-size: 8px;
-      letter-spacing: .2em;
-      color: #e0c58f;
-      margin-bottom: 6px
-    }
-
-    .gallery-label strong {
-      font: 500 21px var(--serif)
-    }
-
-    .process {
-      background: #201e1b;
-      color: #fff;
-      padding: 94px 8.5%
-    }
-
-    .process .section-head h2 {
-      color: #fff
-    }
-
-    .process .section-head p {
-      color: #dac9c5
-    }
-
-    .steps {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 28px
-    }
-
-    .step {
-      border-top: 1px solid #ffffff45;
-      padding-top: 21px
-    }
-
-    .step span {
-      font: italic 16px var(--serif);
-      color: #d7ae86
-    }
-
-    .step h3 {
-      font: 500 20px var(--serif);
-      margin: 13px 0 8px
-    }
-
-    .step p {
-      font-size: 11px;
-      color: #d7c6c2;
-      line-height: 1.75;
-      margin: 0
-    }
-
-    .testimonial {
-      display: grid;
-      grid-template-columns: .85fr 1.15fr;
-      min-height: 420px;
-      background: var(--paper)
-    }
-
-    .testimonial-image {
-      background: url('https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1100&q=85') center/cover
-    }
-
-    .quote {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      padding: 60px 13%
-    }
-
-    .quote-mark {
-      font: 70px/.7 var(--serif);
-      color: var(--gold)
-    }
-
-    .quote blockquote {
-      font: italic 26px/1.5 var(--serif);
-      color: var(--wine);
-      margin: 20px 0
-    }
-
-    .quote cite {
-      font-style: normal;
-      font-size: 9px;
-      text-transform: uppercase;
-      letter-spacing: .16em;
-      color: var(--muted)
-    }
-
-    .faq {
-      padding: 86px 8.5%;
-      background: #f5f2ec
-    }
-
-    .faq-inner {
-      max-width: 1060px;
-      margin: 0 auto
-    }
-
-    .faq h2 {
-      font: 500 clamp(34px, 4vw, 48px)/1.12 var(--serif);
-      color: var(--wine);
-      margin: 15px 0 32px
-    }
-
-    .faq-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 24px 38px
-    }
-
-    .faq-grid article {
-      border-top: 1px solid var(--line);
-      padding-top: 18px
-    }
-
-    .faq-grid h3 {
-      font: 500 20px var(--serif);
-      color: var(--wine);
-      margin: 0 0 8px
-    }
-
-    .faq-grid p {
-      font-size: 12px;
-      line-height: 1.8;
-      color: var(--muted);
-      margin: 0
-    }
-
-    .contact {
-      display: grid;
-      grid-template-columns: .85fr 1.15fr;
-      gap: 9%;
-      align-items: start;
-      background: #e6dfd5
-    }
-
-    .contact-info {
-      padding-top: 10px
-    }
-
-    .contact-info p {
-      max-width: 380px
-    }
-
-    .contact-detail {
-      margin-top: 29px;
-      display: grid;
-      gap: 15px;
-      font-size: 12px;
-      color: #5d504a
-    }
-
-    .contact-detail span {
-      display: flex;
-      gap: 13px;
-      align-items: center
-    }
-
-    .contact-detail b {
-      color: var(--gold);
-      font-size: 15px;
-      width: 15px
-    }
-
-    .form {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 17px;
-      background: var(--paper);
-      padding: 32px
-    }
-
-    .form label {
-      font-size: 9px;
-      letter-spacing: .1em;
-      text-transform: uppercase;
-      color: #71615a
-    }
-
-    .form .wide {
-      grid-column: 1/-1
-    }
-
-    .form input,
-    .form textarea,
-    .form select {
-      margin-top: 8px;
-      display: block;
-      width: 100%;
-      padding: 12px 0;
-      border: 0;
-      border-bottom: 1px solid var(--line);
-      outline: none;
-      background: transparent;
-      color: var(--ink);
-      font-size: 12px
-    }
-
-    .form input:focus,
-    .form textarea:focus {
-      border-color: var(--wine)
-    }
-
-    .form textarea {
-      resize: vertical;
-      min-height: 64px
-    }
-
-    .form button {
-      grid-column: 1/-1;
-      justify-self: start;
-      cursor: pointer
-    }
-
-    .footer {
-      background: #151412;
-      color: #e8ded8;
-      padding: 45px 8.5% 24px
-    }
-
-    .footer-top {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding-bottom: 30px;
-      border-bottom: 1px solid #ffffff2a
-    }
-
-    .footer .brandtext strong {
-      color: #fff
-    }
-
-    .footer .brandmark {
-      color: #fff
-    }
-
-    .footer-note {
-      max-width: 280px;
-      font: italic 17px/1.5 var(--serif);
-      color: #ddc6ba;
-      text-align: right
-    }
-
-    .footer-bottom {
-      display: flex;
-      justify-content: space-between;
-      padding-top: 20px;
-      color: #ad9991;
-      font-size: 9px;
-      letter-spacing: .06em
-    }
-
-    .socials {
-      display: flex;
-      gap: 20px
-    }
-
-    .whatsapp {
-      position: fixed;
-      right: 22px;
-      bottom: 22px;
-      width: 53px;
-      height: 53px;
-      border-radius: 50%;
-      background: #387e61;
-      color: #fff;
-      display: grid;
-      place-items: center;
-      font-size: 23px;
-      box-shadow: 0 8px 25px #0003;
-      z-index: 15;
-      border: 2px solid #fff
-    }
-
-    .toast {
-      position: fixed;
-      bottom: 88px;
-      right: 22px;
-      background: var(--wine);
-      color: white;
-      padding: 13px 18px;
-      font-size: 12px;
-      display: none;
-      z-index: 30
-    }
-
-    .toast.show {
-      display: block
-    }
-
-    @media(max-width:900px) {
-      .nav {
-        padding: 0 5%;
-        height: 76px
-      }
-
-      .navlinks {
-        gap: 18px
-      }
-
-      .navlinks a:nth-child(3) {
-        display: none
-      }
-
-      .hero-content {
-        margin-left: 8%
-      }
-
-      .section {
-        padding: 85px 6%
-      }
-
-      .services,
-      .portfolio,
-      .process {
-        padding-left: 6%;
-        padding-right: 6%
-      }
-
-      .service-grid {
-        grid-template-columns: repeat(2, 1fr)
-      }
-
-      .gallery {
-        grid-template-rows: 230px 210px
-      }
-
-      .contact {
-        gap: 5%
-      }
-
-      .quote {
-        padding: 45px 9%
-      }
-      .faq { padding-left: 6%; padding-right: 6% }
-    }
-
-    @media(max-width:620px) {
-      .topline {
-        font-size: 8px;
-        height: 30px
-      }
-
-      .nav {
-        height: 68px;
-        padding: 0 5%
-      }
-
-      .brandmark {
-        width: 39px;
-        height: 39px;
-        font-size: 18px
-      }
-
-      .brandtext strong {
-        font-size: 12px
-      }
-
-      .nav-cta {
-        display: none
-      }
-
-      .mobile-toggle {
-        display: block
-      }
-
-      .navlinks {
-        display: none;
-        position: absolute;
-        top: 68px;
-        left: 0;
-        right: 0;
-        background: var(--paper);
-        padding: 20px 6%;
-        border-bottom: 1px solid var(--line);
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 19px
-      }
-
-      .navlinks.open {
-        display: flex
-      }
-
-      .navlinks a:nth-child(3) {
-        display: block
-      }
-
-      .hero {
-        height: 660px;
-        min-height: unset
-      }
-
-      .hero:before {
-        background: linear-gradient(90deg, #241719bf, #24171961 100%), url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=85') 58% center/cover
-      }
-
-      .hero-content {
-        margin-left: 7%;
-        padding: 0
-      }
-
-      .hero h1 {
-        font-size: 53px
-      }
-
-      .hero-copy {
-        font-size: 13px
-      }
-
-      .hero-actions {
-        gap: 16px;
-        flex-wrap: wrap
-      }
-
-      .hero-note {
-        right: 5%;
-        bottom: 24px
-      }
-
-      .trust {
-        grid-template-columns: 1fr 1fr;
-        row-gap: 17px;
-        padding: 22px 5%
-      }
-
-      .trust-item:nth-child(2) {
-        border: 0
-      }
-
-      .trust strong {
-        font-size: 16px
-      }
-
-      .intro {
-        grid-template-columns: 1fr;
-        gap: 45px
-      }
-
-      .intro-image {
-        height: 370px;
-        margin-right: 10px
-      }
-
-      .section h2 {
-        font-size: 39px
-      }
-
-      .services,
-      .portfolio,
-      .process {
-        padding-top: 76px;
-        padding-bottom: 80px
-      }
-
-      .service-grid {
-        gap: 10px
-      }
-
-      .service-card {
-        min-height: 315px;
-        padding: 0 16px 21px
-      }
-
-      .service-photo {
-        height: 170px;
-        margin: 0 -16px 18px
-      }
-
-      .service-card .num {
-        top: 185px;
-        right: 14px
-      }
-
-      .service-card h3 {
-        font-size: 18px
-      }
-
-      .service-card p {
-        font-size: 10px
-      }
-
-      .portfolio-head {
-        display: block
-      }
-
-      .portfolio-head .arrow-link {
-        margin-top: 20px
-      }
-
-      .gallery {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 250px 190px 190px;
-        gap: 10px
-      }
-
-      .g1 {
-        grid-row: span 2
-      }
-
-      .g3 {
-        grid-row: span 1
-      }
-
-      .g4 {
-        grid-column: span 2
-      }
-
-      .gallery-label {
-        left: 13px;
-        bottom: 13px
-      }
-
-      .gallery-label strong {
-        font-size: 17px
-      }
-
-      .steps {
-        grid-template-columns: 1fr 1fr;
-        gap: 27px 17px
-      }
-
-      .testimonial {
-        grid-template-columns: 1fr
-      }
-
-      .testimonial-image {
-        height: 300px
-      }
-
-      .quote {
-        padding: 45px 8%
-      }
-
-      .quote blockquote {
-        font-size: 23px
-      }
-
-      .contact {
-        grid-template-columns: 1fr;
-        gap: 35px
-      }
-      .faq-grid { grid-template-columns: 1fr; gap: 20px }
-
-      .form {
-        padding: 23px 18px
-      }
-
-      .form label {
-        font-size: 8px
-      }
-
-      .footer-top {
-        align-items: flex-start;
-        gap: 20px
-      }
-
-      .footer-note {
-        font-size: 14px;
-        max-width: 150px
-      }
-
-      .footer-bottom {
-        gap: 14px;
-        flex-direction: column
-      }
-
-      .socials {
-        gap: 14px
-      }
-    }
-  </style>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta name="description" content="SP Events Planner is Gurugram's trusted event planner for weddings, corporate events, birthdays and celebrations. Based in Bhondsi, serving all of Delhi NCR. Call +91 70489 55221."/>
+<meta name="robots" content="index, follow, max-image-preview:large"/>
+<meta name="keywords" content="event planner Gurugram, wedding planner Gurugram, event organiser Delhi NCR, shaadi planner Haryana, corporate event planner Gurugram, SP Events Planner"/>
+<link rel="canonical" href="https://speventsplanner.com/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="SP Events Planner"/>
+<meta property="og:title" content="SP Events Planner | Wedding & Event Planner in Gurugram, Haryana"/>
+<meta property="og:description" content="Weddings, corporate events and celebrations in Gurugram planned with creativity, love and seamless execution. Call +91 70489 55221."/>
+<meta property="og:url" content="https://speventsplanner.com/"/>
+<meta property="og:image" content="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=85"/>
+<meta property="og:locale" content="en_IN"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="SP Events Planner | Wedding & Event Planner in Gurugram"/>
+<meta name="twitter:description" content="Weddings, corporate events and celebrations in Gurugram planned with creativity and care."/>
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=85"/>
+<meta name="geo.region" content="IN-HR"/>
+<meta name="geo.placename" content="Gurugram"/>
+<meta name="geo.position" content="28.359369;77.072685"/>
+<meta name="ICBM" content="28.359369, 77.072685"/>
+<title>SP Events Planner | Wedding & Event Planner in Gurugram, Haryana</title>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://speventsplanner.com/#website",
+      "url": "https://speventsplanner.com/",
+      "name": "SP Events Planner",
+      "publisher": { "@id": "https://speventsplanner.com/#business" },
+      "inLanguage": "en-IN"
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://speventsplanner.com/#business",
+      "name": "SP Events Planner",
+      "alternateName": "S&P Wedding Decor",
+      "url": "https://speventsplanner.com/",
+      "logo": "https://speventsplanner.com/logo.png",
+      "image": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=85",
+      "description": "SP Events Planner organises weddings, corporate events, private celebrations and event decor in Gurugram, Haryana and across Delhi NCR.",
+      "email": "spweddingdecor@gmail.com",
+      "telephone": "+91-70489-55221",
+      "priceRange": "₹₹",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "House No. 120, Road No. 1, Shyam Kunj, Bhondsi",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "postalCode": "122102",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 28.359369,
+        "longitude": 77.072685
+      },
+      "hasMap": "https://maps.google.com/?q=28.359369,77.072685",
+      "openingHoursSpecification": [
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "21:00" }
+      ],
+      "areaServed": [
+        { "@type": "City", "name": "Gurugram" },
+        { "@type": "AdministrativeArea", "name": "Delhi NCR" }
+      ],
+      "contactPoint": [
+        { "@type": "ContactPoint", "telephone": "+91-70489-55221", "contactType": "customer service", "availableLanguage": ["Hindi", "English"] },
+        { "@type": "ContactPoint", "telephone": "+91-98991-24332", "contactType": "customer service", "availableLanguage": ["Hindi", "English"] }
+      ],
+      "sameAs": [
+        "https://www.instagram.com/speventsplanner",
+        "https://www.facebook.com/speventsplanner",
+        "https://www.youtube.com/@speventsplanner"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "What events does SP Events Planner organise?", "acceptedAnswer": { "@type": "Answer", "text": "SP Events Planner organises weddings, engagements, corporate events, birthdays, anniversaries, private celebrations and event decor across Gurugram and Delhi NCR." } },
+        { "@type": "Question", "name": "Where is SP Events Planner located?", "acceptedAnswer": { "@type": "Answer", "text": "House No. 120, Road No. 1, Shyam Kunj, Bhondsi, Gurugram, Haryana 122102, India." } },
+        { "@type": "Question", "name": "How can I contact SP Events Planner?", "acceptedAnswer": { "@type": "Answer", "text": "Call +91 70489 55221 or +91 98991 24332, or email spweddingdecor@gmail.com." } }
+      ]
+    }
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --saffron:#FF6B00;
+  --gold:#D4A017;
+  --maroon:#8B0000;
+  --cream:#FFF8F0;
+  --deep:#1A0A00;
+  --pink:#FF4081;
+  --green:#2E7D32;
+  --white:#fff;
+  --serif:'Playfair Display',Georgia,serif;
+  --sans:'Poppins',Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--cream);color:var(--deep);font-family:var(--sans);overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+button,input,textarea,select{font:inherit}
+
+/* FLOATING PARTICLES */
+.particles{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0;overflow:hidden}
+.particle{position:absolute;animation:floatUp linear infinite;opacity:0}
+@keyframes floatUp{
+  0%{transform:translateY(100vh) rotate(0deg);opacity:0}
+  10%{opacity:.7}
+  90%{opacity:.4}
+  100%{transform:translateY(-10vh) rotate(360deg);opacity:0}
+}
+
+/* TOPBAR */
+.topbar{background:linear-gradient(90deg,var(--maroon),var(--saffron),var(--gold),var(--saffron),var(--maroon));
+  background-size:300% 100%;animation:shimmer 4s linear infinite;
+  color:#fff;text-align:center;font-size:11px;letter-spacing:.15em;padding:8px;text-transform:uppercase}
+@keyframes shimmer{0%{background-position:0%}100%{background-position:300%}}
+
+/* NAV */
+nav{position:sticky;top:0;z-index:100;background:rgba(255,248,240,.96);
+  backdrop-filter:blur(12px);border-bottom:2px solid var(--gold);
+  display:flex;align-items:center;justify-content:space-between;padding:0 5%;height:72px}
+.logo{display:flex;align-items:center;gap:12px}
+.logo-icon{width:48px;height:48px;background:linear-gradient(135deg,var(--maroon),var(--saffron));
+  border-radius:50%;display:grid;place-items:center;color:#fff;font:700 16px var(--serif);
+  box-shadow:0 0 0 3px var(--gold);animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 3px var(--gold)}50%{box-shadow:0 0 0 6px rgba(212,160,23,.4)}}
+.logo-text strong{display:block;font:700 15px var(--serif);color:var(--maroon);letter-spacing:.08em}
+.logo-text small{font-size:9px;color:var(--saffron);letter-spacing:.2em;text-transform:uppercase}
+.nav-links{display:flex;gap:28px;font-size:12px;font-weight:600;color:var(--deep)}
+.nav-links a{position:relative;padding-bottom:4px;transition:color .2s}
+.nav-links a::after{content:'';position:absolute;bottom:0;left:0;width:0;height:2px;
+  background:var(--saffron);transition:width .3s}
+.nav-links a:hover{color:var(--saffron)}
+.nav-links a:hover::after{width:100%}
+.nav-cta{background:linear-gradient(135deg,var(--maroon),var(--saffron));color:#fff;
+  padding:10px 22px;border-radius:25px;font-size:12px;font-weight:700;
+  box-shadow:0 4px 15px rgba(255,107,0,.4);transition:.3s;white-space:nowrap}
+.nav-cta:hover{transform:translateY(-2px);box-shadow:0 8px 25px rgba(255,107,0,.5)}
+.hamburger{display:none;background:none;border:none;font-size:26px;color:var(--maroon);cursor:pointer}
+
+/* HERO */
+.hero{min-height:90vh;position:relative;display:flex;align-items:center;overflow:hidden;
+  background:linear-gradient(135deg,#1A0A00 0%,#3D0C02 40%,#6B1A00 100%)}
+.hero-bg{position:absolute;inset:0;
+  background:url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=2200&q=80') center/cover;
+  opacity:.25;animation:heroZoom 8s ease-in-out infinite alternate}
+@keyframes heroZoom{from{transform:scale(1)}to{transform:scale(1.06)}}
+.hero-mandala{position:absolute;right:-80px;top:50%;transform:translateY(-50%);
+  width:520px;height:520px;opacity:.12;animation:spin 40s linear infinite}
+@keyframes spin{from{transform:translateY(-50%) rotate(0deg)}to{transform:translateY(-50%) rotate(360deg)}}
+.hero-content{position:relative;z-index:2;padding:0 5%;max-width:680px}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(212,160,23,.2);
+  border:1px solid var(--gold);color:var(--gold);padding:6px 16px;border-radius:20px;
+  font-size:11px;letter-spacing:.2em;text-transform:uppercase;margin-bottom:24px;
+  animation:fadeDown .8s ease both}
+@keyframes fadeDown{from{opacity:0;transform:translateY(-20px)}to{opacity:1;transform:translateY(0)}}
+.hero h1{font:700 clamp(42px,6vw,80px)/1.1 var(--serif);color:#fff;margin-bottom:20px;
+  animation:fadeUp 1s ease .2s both}
+.hero h1 em{color:var(--gold);font-style:italic}
+.hero p{color:rgba(255,255,255,.8);font-size:15px;line-height:1.8;max-width:480px;margin-bottom:36px;
+  animation:fadeUp 1s ease .4s both}
+@keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+.hero-btns{display:flex;gap:16px;flex-wrap:wrap;animation:fadeUp 1s ease .6s both}
+.btn-primary{background:linear-gradient(135deg,var(--saffron),var(--gold));color:#fff;
+  padding:14px 32px;border-radius:30px;font-weight:700;font-size:13px;
+  box-shadow:0 6px 20px rgba(255,107,0,.5);transition:.3s;display:inline-flex;align-items:center;gap:8px}
+.btn-primary:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(255,107,0,.6)}
+.btn-outline{border:2px solid rgba(255,255,255,.6);color:#fff;padding:14px 32px;
+  border-radius:30px;font-weight:600;font-size:13px;transition:.3s;display:inline-flex;align-items:center;gap:8px}
+.btn-outline:hover{background:rgba(255,255,255,.1);border-color:#fff}
+.hero-diya{position:absolute;bottom:30px;right:5%;animation:divaFloat 3s ease-in-out infinite}
+@keyframes divaFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+
+/* TRUST STRIP */
+.trust{background:linear-gradient(135deg,var(--maroon),#5C0A0A);color:#fff;
+  padding:28px 5%;display:grid;grid-template-columns:repeat(4,1fr);text-align:center;gap:10px}
+.trust-item{padding:10px;border-right:1px solid rgba(255,255,255,.2)}
+.trust-item:last-child{border:none}
+.trust-item .icon{font-size:28px;margin-bottom:6px;animation:bounce 2s ease-in-out infinite}
+@keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+.trust-item strong{display:block;font:600 15px var(--serif);color:var(--gold)}
+.trust-item small{font-size:10px;color:rgba(255,255,255,.7);letter-spacing:.1em;text-transform:uppercase}
+
+/* SECTIONS */
+.section{padding:90px 5%}
+.tag{font-size:11px;font-weight:700;letter-spacing:.25em;text-transform:uppercase;
+  color:var(--saffron);margin-bottom:12px;display:flex;align-items:center;gap:10px}
+.tag::before{content:'';width:30px;height:2px;background:var(--saffron)}
+h2{font:600 clamp(32px,4vw,52px)/1.15 var(--serif);color:var(--maroon);margin-bottom:16px}
+.section p{font-size:14px;line-height:1.9;color:#5a3a2a;max-width:560px}
+
+/* ABOUT */
+.about{display:grid;grid-template-columns:1fr 1fr;gap:8%;align-items:center}
+.about-img{position:relative;border-radius:20px;overflow:hidden;
+  box-shadow:0 20px 60px rgba(139,0,0,.2)}
+.about-img img{width:100%;height:480px;object-fit:cover;display:block;transition:transform .6s}
+.about-img:hover img{transform:scale(1.04)}
+.about-img-badge{position:absolute;bottom:24px;left:24px;background:rgba(255,248,240,.95);
+  padding:14px 20px;border-radius:12px;border-left:4px solid var(--gold)}
+.about-img-badge strong{display:block;font:600 14px var(--serif);color:var(--maroon)}
+.about-img-badge span{font-size:11px;color:var(--saffron)}
+.about-copy .signature{font:italic 20px var(--serif);color:var(--maroon);
+  margin:24px 0;padding:16px 20px;border-left:3px solid var(--gold);background:rgba(212,160,23,.08);border-radius:0 8px 8px 0}
+
+/* SERVICES */
+.services-section{background:linear-gradient(180deg,#FFF0E0,var(--cream));padding:90px 5%}
+.services-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:50px}
+.service-card{background:#fff;border-radius:16px;overflow:hidden;
+  box-shadow:0 4px 20px rgba(139,0,0,.08);transition:.4s;position:relative}
+.service-card:hover{transform:translateY(-10px);box-shadow:0 20px 50px rgba(139,0,0,.18)}
+.service-card-img{height:200px;background-size:cover;background-position:center;position:relative;overflow:hidden}
+.service-card-img::after{content:'';position:absolute;inset:0;
+  background:linear-gradient(0deg,rgba(26,10,0,.6),transparent 60%)}
+.service-card-img .emoji{position:absolute;top:14px;right:14px;font-size:28px;
+  background:rgba(255,255,255,.9);border-radius:50%;width:48px;height:48px;
+  display:grid;place-items:center;animation:wiggle 3s ease-in-out infinite}
+@keyframes wiggle{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(5deg)}}
+.service-card-body{padding:20px}
+.service-card-body h3{font:600 18px var(--serif);color:var(--maroon);margin-bottom:8px}
+.service-card-body p{font-size:12px;line-height:1.7;color:#6b4c3b}
+.service-num{position:absolute;top:14px;left:14px;background:var(--gold);color:#fff;
+  width:32px;height:32px;border-radius:50%;display:grid;place-items:center;font-size:11px;font-weight:700}
+
+/* GALLERY */
+.gallery-section{padding:90px 5%}
+.gallery-head{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:32px}
+.gallery-grid{display:grid;grid-template-columns:1.2fr .8fr 1fr;grid-template-rows:280px 240px;gap:14px}
+.g-item{border-radius:14px;overflow:hidden;position:relative;background-size:cover;background-position:center;cursor:pointer}
+.g-item::after{content:'';position:absolute;inset:0;
+  background:linear-gradient(0deg,rgba(26,10,0,.7),transparent 55%);transition:.3s}
+.g-item:hover::after{background:linear-gradient(0deg,rgba(26,10,0,.85),transparent 70%)}
+.g-item:hover{transform:scale(1.02);box-shadow:0 15px 40px rgba(0,0,0,.3)}
+.g-item{transition:.4s}
+.g1{grid-row:span 2;background-image:url('https://images.unsplash.com/photo-1591604466107-ec97de577aff?auto=format&fit=crop&w=900&q=85')}
+.g2{background-image:url('https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=800&q=85')}
+.g3{grid-row:span 2;background-image:url('https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=800&q=85')}
+.g4{background-image:url('https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=800&q=85')}}
+.g-label{position:absolute;bottom:18px;left:18px;z-index:1;color:#fff}
+.g-label small{display:block;font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:4px}
+.g-label strong{font:600 18px var(--serif)}
+
+/* PROCESS */
+.process-section{background:linear-gradient(135deg,#1A0A00,#3D0C02);color:#fff;padding:90px 5%}
+.process-section .tag{color:var(--gold)}
+.process-section .tag::before{background:var(--gold)}
+.process-section h2{color:#fff}
+.steps-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:50px}
+.step-card{background:rgba(255,255,255,.06);border:1px solid rgba(212,160,23,.3);
+  border-radius:16px;padding:28px 22px;position:relative;overflow:hidden;transition:.3s}
+.step-card:hover{background:rgba(255,255,255,.1);transform:translateY(-5px)}
+.step-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;
+  background:linear-gradient(90deg,var(--saffron),var(--gold))}
+.step-num{font:italic 36px var(--serif);color:var(--gold);opacity:.5;margin-bottom:12px}
+.step-card h3{font:600 18px var(--serif);color:#fff;margin-bottom:10px}
+.step-card p{font-size:12px;color:rgba(255,255,255,.65);line-height:1.75}
+.step-icon{font-size:32px;margin-bottom:10px}
+
+/* QUOTE */
+.quote-section{background:linear-gradient(135deg,var(--gold),var(--saffron));
+  padding:70px 5%;text-align:center;position:relative;overflow:hidden}
+.quote-section::before,.quote-section::after{content:'🌸';position:absolute;font-size:80px;opacity:.15}
+.quote-section::before{top:-10px;left:20px}
+.quote-section::after{bottom:-10px;right:20px}
+.quote-mark{font:120px/.5 var(--serif);color:rgba(255,255,255,.3)}
+.quote-section blockquote{font:italic clamp(20px,3vw,32px)/1.5 var(--serif);color:#fff;
+  max-width:700px;margin:0 auto 16px}
+.quote-section cite{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.8)}
+
+/* TESTIMONIALS */
+.testimonials-section{padding:90px 5%;background:linear-gradient(180deg,#FFF0E0,var(--cream))}
+.testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;max-width:1100px;margin:0 auto}
+.testi-card{background:#fff;border-radius:20px;padding:32px 28px;
+  box-shadow:0 6px 30px rgba(139,0,0,.08);transition:.3s;position:relative;overflow:hidden}
+.testi-card::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;
+  background:linear-gradient(90deg,var(--maroon),var(--saffron),var(--gold))}
+.testi-card:hover{transform:translateY(-6px);box-shadow:0 16px 50px rgba(139,0,0,.14)}
+.testi-stars{font-size:16px;margin-bottom:14px;letter-spacing:2px}
+.testi-text{font-size:13px;line-height:1.85;color:#5a3a2a;font-style:italic;margin-bottom:20px}
+.testi-author{display:flex;align-items:center;gap:12px}
+.testi-avatar{width:44px;height:44px;border-radius:50%;
+  background:linear-gradient(135deg,var(--maroon),var(--saffron));
+  color:#fff;display:grid;place-items:center;font:700 18px var(--serif);flex-shrink:0}
+.testi-author strong{display:block;font-size:13px;font-weight:700;color:var(--maroon)}
+.testi-author small{font-size:10px;color:var(--saffron);letter-spacing:.1em;text-transform:uppercase}
+@media(max-width:768px){.testi-grid{grid-template-columns:1fr}}
+
+/* FAQ */
+.faq-section{padding:90px 5%;background:var(--cream)}
+.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px 40px;margin-top:40px}
+.faq-item{border-top:2px solid var(--gold);padding-top:18px}
+.faq-item h3{font:600 17px var(--serif);color:var(--maroon);margin-bottom:10px;cursor:pointer;
+  display:flex;justify-content:space-between;align-items:center}
+.faq-item h3 span{font-size:20px;color:var(--saffron);transition:transform .3s}
+.faq-item.open h3 span{transform:rotate(45deg)}
+.faq-item p{font-size:13px;line-height:1.8;color:#6b4c3b;max-height:0;overflow:hidden;transition:max-height .4s ease}
+.faq-item.open p{max-height:200px}
+
+/* CONTACT */
+.contact-section{background:linear-gradient(135deg,#FFF0E0,#FFE4CC);padding:90px 5%}
+.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:8%;align-items:start}
+.contact-info .tag{margin-bottom:16px}
+.contact-details{margin-top:28px;display:grid;gap:14px}
+.contact-row{display:flex;align-items:center;gap:14px;font-size:13px;color:#5a3a2a}
+.contact-row .icon{width:38px;height:38px;background:linear-gradient(135deg,var(--maroon),var(--saffron));
+  border-radius:50%;display:grid;place-items:center;color:#fff;font-size:16px;flex-shrink:0}
+.form-card{background:#fff;border-radius:20px;padding:36px;
+  box-shadow:0 10px 40px rgba(139,0,0,.12)}
+.form-card h3{font:600 22px var(--serif);color:var(--maroon);margin-bottom:24px;text-align:center}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.form-group{display:flex;flex-direction:column;gap:6px}
+.form-group.wide{grid-column:1/-1}
+.form-group label{font-size:10px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--saffron)}
+.form-group input,.form-group select,.form-group textarea{
+  border:none;border-bottom:2px solid #e8d5c4;padding:10px 0;font-size:13px;
+  background:transparent;color:var(--deep);outline:none;transition:border-color .3s}
+.form-group input:focus,.form-group select:focus,.form-group textarea:focus{border-color:var(--saffron)}
+.form-group textarea{resize:vertical;min-height:70px}
+.btn-submit{grid-column:1/-1;background:linear-gradient(135deg,var(--maroon),var(--saffron));
+  color:#fff;border:none;padding:14px 32px;border-radius:30px;font-size:14px;font-weight:700;
+  cursor:pointer;transition:.3s;box-shadow:0 6px 20px rgba(255,107,0,.4);width:100%}
+.btn-submit:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(255,107,0,.5)}
+
+/* FOOTER */
+footer{background:#0D0500;color:rgba(255,255,255,.8);padding:50px 5% 24px}
+.footer-top{display:flex;justify-content:space-between;align-items:center;
+  padding-bottom:28px;border-bottom:1px solid rgba(212,160,23,.3)}
+.footer-tagline{font:italic 16px var(--serif);color:var(--gold);text-align:right;max-width:260px}
+.footer-bottom{display:flex;justify-content:space-between;padding-top:20px;
+  font-size:11px;color:rgba(255,255,255,.45)}
+.footer-links{display:flex;gap:18px}
+.footer-links a:hover{color:var(--gold)}
+
+/* WHATSAPP */
+.wa-btn{position:fixed;right:22px;bottom:22px;width:56px;height:56px;border-radius:50%;
+  background:#25D366;color:#fff;display:grid;place-items:center;font-size:26px;
+  box-shadow:0 6px 20px rgba(0,0,0,.25);z-index:200;border:3px solid #fff;
+  animation:waPulse 2s ease-in-out infinite}
+@keyframes waPulse{0%,100%{box-shadow:0 6px 20px rgba(37,211,102,.4)}50%{box-shadow:0 6px 30px rgba(37,211,102,.7)}}
+
+/* SCROLL REVEAL */
+.reveal{opacity:0;transform:translateY(40px);transition:opacity .7s ease,transform .7s ease}
+.reveal.visible{opacity:1;transform:translateY(0)}
+
+/* MOBILE NAV */
+@media(max-width:768px){
+  .nav-links,.nav-cta{display:none}
+  .hamburger{display:block}
+  .mobile-menu{display:none;position:fixed;top:72px;left:0;right:0;
+    background:rgba(255,248,240,.98);padding:20px 5%;border-bottom:2px solid var(--gold);
+    flex-direction:column;gap:16px;z-index:99}
+  .mobile-menu.open{display:flex}
+  .mobile-menu a{font-size:14px;font-weight:600;color:var(--maroon);padding:8px 0;
+    border-bottom:1px solid rgba(212,160,23,.2)}
+  .about,.contact-grid{grid-template-columns:1fr}
+  .services-grid{grid-template-columns:1fr 1fr}
+  .steps-grid{grid-template-columns:1fr 1fr}
+  .gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:220px 180px 180px}
+  .g1{grid-row:span 2}.g3{grid-row:span 1}.g4{grid-column:span 2}
+  .trust{grid-template-columns:1fr 1fr}
+  .trust-item:nth-child(2){border:none}
+  .faq-grid{grid-template-columns:1fr}
+  .form-grid{grid-template-columns:1fr}
+}
+@media(max-width:480px){
+  .services-grid,.steps-grid{grid-template-columns:1fr}
+  .hero h1{font-size:38px}
+}
+</style>
 </head>
-
 <body>
-  <div class="topline">Gurugram <span>✦</span> Weddings, corporate events & celebrations</div>
-  <header class="nav">
-    <a class="brand" href="#home" aria-label="SP Events Planner home"><span class="brandmark">SP</span><span
-        class="brandtext"><strong>EVENTS PLANNER</strong><small>All type event organise</small></span></a>
-    <nav class="navlinks" id="navlinks"><a href="#story">Our story</a><a href="#services">What we do</a><a
-        href="#work">Our work</a><a href="#process">How it works</a><a href="#faq">FAQs</a></nav>
-    <a class="nav-cta" href="#contact">Plan your event <span>↗</span></a><button class="mobile-toggle" id="menu"
-      aria-label="Open navigation" aria-expanded="false">☰</button>
-  </header>
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-content">
-        <div class="eyebrow">SP Events Planner · Gurugram</div>
-        <h1>Our productions<br>&amp; <em>events.</em></h1>
-        <p class="hero-copy">Crafting moments that live beyond memory. From weddings and family celebrations to
-          corporate productions, we bring each gathering to life with creativity, care and seamless execution.</p>
-        <div class="hero-actions"><a class="btn btn-light" href="#contact">Let’s plan together <span>↗</span></a><a
-            class="text-link" href="#work">Discover our work <span>↓</span></a></div>
-      </div>
-      <div class="hero-note">Thoughtfully made moments</div>
-    </section>
-    <div class="trust">
-      <div class="trust-item"><strong>Custom concepts</strong><small>Designed around you</small></div>
-      <div class="trust-item"><strong>Creative design</strong><small>Spaces with a story</small></div>
-      <div class="trust-item"><strong>One-stop planning</strong><small>From idea to execution</small></div>
-      <div class="trust-item"><strong>Flexible packages</strong><small>For events of any size</small></div>
-    </div>
-    <section class="section intro" id="story">
-      <div class="intro-image">
-        <div class="image-caption">The day, as you imagined it.</div>
-      </div>
-      <div class="intro-copy">
-        <div class="section-tag">A little about us</div>
-        <h2>An event partner<br>for every occasion.</h2>
-        <p>At SP Events Planner, we turn your ideas into memorable experiences. We pair creative thinking with clear
-          planning and a capable team, shaping each event around your goals, your guests and your budget.</p>
-        <p>From elegant weddings and personal milestones to corporate gatherings, live entertainment and brand events,
-          our Gurugram team coordinates the details so you can enjoy the experience.</p>
-        <div class="signature">Your vision. Our expertise. A seamless event.</div><a class="arrow-link"
-          href="#contact">Tell us what you’re dreaming of <span>→</span></a>
-      </div>
-    </section>
-    <section class="services" id="services">
-      <div class="section-head">
-        <div class="section-tag">What we bring to the table</div>
-        <h2>From intimate gatherings<br>to grand productions.</h2>
-        <p>Creative concepts, coordinated logistics and smooth delivery, all under one trusted roof.</p>
-      </div>
-      <div class="service-grid">
-        <article class="service-card">
-          <div class="service-photo s1"></div><span class="num">01</span>
-          <h3>Weddings</h3>
-          <p>Complete wedding design and planning shaped around your celebration.</p>
-        </article>
-        <article class="service-card">
-          <div class="service-photo s2"></div><span class="num">02</span>
-          <h3>Corporate events</h3>
-          <p>Professional events, launches and brand experiences with a clear point of view.</p>
-        </article>
-        <article class="service-card">
-          <div class="service-photo s3"></div><span class="num">03</span>
-          <h3>Social occasions</h3>
-          <p>Personalized birthdays, anniversaries and family celebrations.</p>
-        </article>
-        <article class="service-card">
-          <div class="service-photo s4"></div><span class="num">04</span>
-          <h3>Live & special events</h3>
-          <p>Entertainment, promotional events and productions, smoothly coordinated.</p>
-        </article>
-      </div>
-    </section>
-    <section class="portfolio" id="work">
-      <div class="portfolio-head">
-        <div>
-          <div class="section-tag">A few moments we love</div>
-          <h2>Made to be remembered.</h2>
-        </div><a class="arrow-link" href="#contact">Make yours with us <span>→</span></a>
-      </div>
-      <div class="gallery">
-        <div class="gallery-item g1">
-          <div class="gallery-label"><small>A day of joy</small><strong>The wedding story</strong></div>
-        </div>
-        <div class="gallery-item g2">
-          <div class="gallery-label"><small>All in the details</small><strong>Tables & flowers</strong></div>
-        </div>
-        <div class="gallery-item g3">
-          <div class="gallery-label"><small>Gathered together</small><strong>Unforgettable evenings</strong></div>
-        </div>
-        <div class="gallery-item g4">
-          <div class="gallery-label"><small>Little reasons to celebrate</small><strong>Life’s lovely occasions</strong>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="process" id="process">
-      <div class="section-head">
-        <div class="section-tag">From first hello to last dance</div>
-        <h2>A thoughtful way to plan.</h2>
-        <p>Clear steps, open conversations and a team that keeps the whole experience feeling easy.</p>
-      </div>
-      <div class="steps">
-        <div class="step"><span>01 / The hello</span>
-          <h3>We listen</h3>
-          <p>Tell us about your people, your plans and what matters most.</p>
-        </div>
-        <div class="step"><span>02 / The vision</span>
-          <h3>We imagine</h3>
-          <p>We shape a creative direction and a plan that feels like yours.</p>
-        </div>
-        <div class="step"><span>03 / The details</span>
-          <h3>We bring it together</h3>
-          <p>Our team coordinates the moving parts with care and clarity.</p>
-        </div>
-        <div class="step"><span>04 / The day</span>
-          <h3>You get to be there</h3>
-          <p>Enjoy every moment. We’ll be behind the scenes making it flow.</p>
-        </div>
-      </div>
-    </section>
-    <section class="testimonial">
-      <div class="testimonial-image"></div>
-      <div class="quote">
-        <div class="quote-mark">“</div>
-        <blockquote>The best kind of celebration feels like a deep breath and a happy heart.</blockquote><cite>A note we
-          keep close · SP Events Planner</cite>
-      </div>
-    </section>
-    <section class="faq" id="faq">
-      <div class="faq-inner">
-        <div class="section-tag">Helpful details</div>
-        <h2>Planning with SP Events Planner</h2>
-        <div class="faq-grid">
-          <article><h3>What events does SP Events Planner organize?</h3><p>SP Events Planner organizes weddings, corporate events, private celebrations, event decor and coordination. Contact the team to discuss your event and requirements.</p></article>
-          <article><h3>Where is SP Events Planner located?</h3><p>The business is based in Bhondsi, Gurugram, Haryana 122102, India, and serves Gurugram and the wider Delhi NCR area.</p></article>
-          <article><h3>How can I contact SP Events Planner?</h3><p>Call +91 70489 55221 or +91 98991 24332, or email s&amp;pweddingdecor@gmail.com. You can also send an event enquiry using the form on this page.</p></article>
-          <article><h3>How do I find the business location?</h3><p><a class="arrow-link" href="https://maps.google.com/?q=28.359369,77.072685" target="_blank" rel="noopener noreferrer">Open the location in Google Maps ↗</a></p></article>
-        </div>
-      </div>
-    </section>
-    <section class="section contact" id="contact">
-      <div class="contact-info">
-        <div class="section-tag">Your celebration starts here</div>
-        <h2>Tell us what<br>you’re dreaming of.</h2>
-        <p>Share a few details and our team will get back to you to talk through ideas, dates and what’s possible.</p>
-        <div class="contact-detail"><span><b>↗</b> House No. 120, Road No. 1, Shyam
-            Kunj,<br>&nbsp;&nbsp;&nbsp;&nbsp;Bhondsi, Gurugram, Haryana 122102</span><span><b>⌖</b> <a
-              href="https://maps.google.com/?q=28.359369,77.072685" target="_blank" rel="noopener noreferrer">View location on Google Maps</a></span><span><b>✆</b> <a
-              href="tel:+917048955221">+91 70489 55221</a></span><span><b>✆</b> <a href="tel:+919899124332">+91 98991
-              24332</a></span><span><b>✉</b> <a
-              href="mailto:s&pweddingdecor@gmail.com">s&pweddingdecor@gmail.com</a></span><span
-            class="social-inline"><b>↗</b> <a href="https://www.instagram.com/" target="_blank"
-              rel="noopener">Instagram</a> · <a href="https://www.facebook.com/" target="_blank"
-              rel="noopener">Facebook</a> · <a href="https://www.youtube.com/" target="_blank"
-              rel="noopener">YouTube</a></span></div>
-      </div>
-      <form class="form" id="enquiry"><label>Your name<input name="name" placeholder="What should we call you?"
-            required /></label><label>Phone number<input name="phone" type="tel"
-            placeholder="A good number to reach you" required /></label><label class="wide">What are you
-          celebrating?<select name="occasion">
-            <option>Wedding</option>
-            <option>Engagement</option>
-            <option>Birthday or anniversary</option>
-            <option>Private celebration</option>
-            <option>Other event</option>
-          </select></label><label>Event date<input name="date" type="date" /></label><label>Guest count<input
-            name="guests" type="number" min="1" placeholder="Approximate is fine" /></label><label class="wide">Anything
-          else you’d like us to know?<textarea name="notes"
-            placeholder="Venue, ideas, or the feeling you’re after..."></textarea></label><button class="btn"
-          type="submit">Send an enquiry <span>↗</span></button></form>
-    </section>
-  </main>
-  <footer class="footer">
-    <div class="footer-top"><a class="brand" href="#home"><span class="brandmark">SP</span><span
-          class="brandtext"><strong>EVENTS PLANNER</strong><small>All type event organise</small></span></a>
-      <div class="footer-note">A little thought, a lot of heart,<br>and a day that feels like yours.</div>
-    </div>
-    <div class="footer-bottom"><span>© 2026 SP Events Planner · Gurugram, India</span>
-      <div class="socials"><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
-          aria-label="Instagram">Instagram ↗</a><a href="https://www.facebook.com/" target="_blank"
-          rel="noopener noreferrer" aria-label="Facebook">Facebook ↗</a><a href="https://www.youtube.com/"
-          target="_blank" rel="noopener noreferrer" aria-label="YouTube">YouTube ↗</a><a
-          href="mailto:s&pweddingdecor@gmail.com">Email</a><a href="tel:+917048955221">Call</a><a href="#home">Top
-          ↑</a></div>
-    </div>
-  </footer>
-  <a class="whatsapp"
-    href="https://wa.me/919899124332?text=Hello%20SP%20Events%20Planner%2C%20I%27d%20love%20to%20plan%20an%20event."
-    aria-label="Chat with us on WhatsApp">✆</a>
-  <div class="toast" id="toast">Opening WhatsApp with your enquiry…</div>
-  <script>
-    const menu = document.getElementById('menu'), links = document.getElementById('navlinks'); menu.addEventListener('click', () => { const open = links.classList.toggle('open'); menu.setAttribute('aria-expanded', open); menu.textContent = open ? '×' : '☰' }); links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { links.classList.remove('open'); menu.setAttribute('aria-expanded', 'false'); menu.textContent = '☰' }));
-    document.getElementById('enquiry').addEventListener('submit', e => { e.preventDefault(); const d = new FormData(e.currentTarget); const subject = `Event enquiry: ${d.get('occasion')}`; const body = `Hello SP Events Planner,\n\nI'd love to enquire about an event.\n\nName: ${d.get('name')}\nPhone: ${d.get('phone')}\nOccasion: ${d.get('occasion')}\nDate: ${d.get('date') || 'Flexible'}\nGuests: ${d.get('guests') || 'Not sure yet'}\nDetails: ${d.get('notes') || 'Please get in touch.'}\n\nThank you.`; window.location.href = `mailto:s%26pweddingdecor@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}` });
-  </script>
-</body>
 
+<!-- Floating Particles -->
+<div class="particles" id="particles"></div>
+
+<!-- Top Bar -->
+<div class="topbar">🪔 Gurugram's Most Trusted Event Planner &nbsp;✦&nbsp; Weddings · Corporate · Celebrations 🌸</div>
+
+<!-- Nav -->
+<nav id="nav">
+  <a class="logo" href="#home">
+    <div class="logo-icon">SP</div>
+    <div class="logo-text">
+      <strong>SP EVENTS PLANNER</strong>
+      <small>All Types of Events Organised</small>
+    </div>
+  </a>
+  <div class="nav-links">
+    <a href="#story">About</a>
+    <a href="#services">Services</a>
+    <a href="#work">Gallery</a>
+    <a href="#process">Process</a>
+    <a href="#faq">FAQs</a>
+  </div>
+  <a class="nav-cta" href="#contact">Plan Your Event ↗</a>
+  <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#story" onclick="closeMobile()">About</a>
+  <a href="#services" onclick="closeMobile()">Services</a>
+  <a href="#work" onclick="closeMobile()">Gallery</a>
+  <a href="#process" onclick="closeMobile()">Process</a>
+  <a href="#faq" onclick="closeMobile()">FAQs</a>
+  <a href="#contact" onclick="closeMobile()">📞 Plan Your Event</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <!-- Mandala SVG -->
+  <svg class="hero-mandala" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="200" cy="200" r="190" stroke="#D4A017" stroke-width="1"/>
+    <circle cx="200" cy="200" r="150" stroke="#D4A017" stroke-width="1"/>
+    <circle cx="200" cy="200" r="110" stroke="#D4A017" stroke-width="1"/>
+    <circle cx="200" cy="200" r="70" stroke="#D4A017" stroke-width="1"/>
+    <circle cx="200" cy="200" r="30" stroke="#D4A017" stroke-width="2"/>
+    <g stroke="#D4A017" stroke-width="1">
+      <line x1="200" y1="10" x2="200" y2="390"/>
+      <line x1="10" y1="200" x2="390" y2="200"/>
+      <line x1="55" y1="55" x2="345" y2="345"/>
+      <line x1="345" y1="55" x2="55" y2="345"/>
+      <line x1="10" y1="130" x2="390" y2="270"/>
+      <line x1="10" y1="270" x2="390" y2="130"/>
+      <line x1="130" y1="10" x2="270" y2="390"/>
+      <line x1="270" y1="10" x2="130" y2="390"/>
+    </g>
+    <g fill="#D4A017">
+      <circle cx="200" cy="10" r="4"/><circle cx="200" cy="390" r="4"/>
+      <circle cx="10" cy="200" r="4"/><circle cx="390" cy="200" r="4"/>
+      <circle cx="55" cy="55" r="4"/><circle cx="345" cy="345" r="4"/>
+      <circle cx="345" cy="55" r="4"/><circle cx="55" cy="345" r="4"/>
+    </g>
+  </svg>
+  <div class="hero-content">
+    <div class="hero-badge">🪔 SP Events Planner · Gurugram, Haryana</div>
+    <h1>Creating <em>Magical</em><br>Indian Celebrations</h1>
+    <p>From grand shaadis to intimate gatherings — we craft every moment with love, tradition and seamless execution across Gurugram & Delhi NCR.</p>
+    <div class="hero-btns">
+      <a class="btn-primary" href="#contact">🎊 Plan Your Event</a>
+      <a class="btn-outline" href="#work">See Our Work ↓</a>
+    </div>
+  </div>
+  <!-- Diya cartoon -->
+  <div class="hero-diya">
+    <svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <ellipse cx="45" cy="68" rx="30" ry="12" fill="#D4A017" opacity=".9"/>
+      <ellipse cx="45" cy="62" rx="22" ry="9" fill="#FF6B00"/>
+      <ellipse cx="45" cy="60" rx="16" ry="7" fill="#FFD700"/>
+      <path d="M45 52 Q42 38 45 20 Q48 38 45 52Z" fill="#FFD700"/>
+      <path d="M45 52 Q40 40 38 25 Q44 38 45 52Z" fill="#FF6B00" opacity=".7"/>
+      <path d="M45 52 Q50 40 52 25 Q46 38 45 52Z" fill="#FF4500" opacity=".7"/>
+      <ellipse cx="45" cy="52" rx="4" ry="5" fill="#FFF3CD"/>
+    </svg>
+  </div>
+</section>
+
+<!-- TRUST STRIP -->
+<div class="trust">
+  <div class="trust-item">
+    <div class="icon">💍</div>
+    <strong>500+ Events</strong>
+    <small>Successfully Delivered</small>
+  </div>
+  <div class="trust-item">
+    <div class="icon">🌸</div>
+    <strong>Custom Decor</strong>
+    <small>Designed Around You</small>
+  </div>
+  <div class="trust-item">
+    <div class="icon">🎯</div>
+    <strong>One-Stop Planning</strong>
+    <small>Idea to Execution</small>
+  </div>
+  <div class="trust-item">
+    <div class="icon">⭐</div>
+    <strong>5-Star Rated</strong>
+    <small>Trusted by Families</small>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="section" id="story">
+  <div class="about reveal">
+    <div class="about-img">
+      <img src="https://images.unsplash.com/photo-1591604466107-ec97de577aff?auto=format&fit=crop&w=900&q=85" alt="SP Events Planner - Indian wedding decoration setup in Gurugram" loading="lazy" width="900" height="480"/>
+      <div class="about-img-badge">
+        <strong>Est. in Gurugram</strong>
+        <span>Bhondsi, Haryana 122102</span>
+      </div>
+    </div>
+    <div class="about-copy">
+      <div class="tag">🪷 A Little About Us</div>
+      <h2>Your Trusted Event Partner for Every Occasion</h2>
+      <p>At SP Events Planner, we blend Indian tradition with modern creativity. From vibrant mehndi nights and grand baraat processions to sleek corporate launches — we handle every detail with heart.</p>
+      <p style="margin-top:14px">Based in Bhondsi, Gurugram, our team serves all of Delhi NCR with passion, precision and a personal touch that makes every event feel truly yours.</p>
+      <div class="signature">आपका सपना, हमारी जिम्मेदारी।<br><small style="font-size:12px;font-style:normal;color:var(--saffron)">Your dream, our responsibility.</small></div>
+      <a class="btn-primary" href="#contact" style="margin-top:8px;display:inline-flex">Tell Us Your Dream ✨</a>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services-section" id="services">
+  <div style="text-align:center;max-width:600px;margin:0 auto" class="reveal">
+    <div class="tag" style="justify-content:center">🎪 What We Offer</div>
+    <h2>From Intimate Gatherings<br>to Grand Celebrations</h2>
+    <p style="margin:0 auto">Creative concepts, flawless logistics and smooth delivery — all under one trusted roof in Gurugram.</p>
+  </div>
+  <div class="services-grid">
+    <article class="service-card reveal">
+      <div class="service-card-img" style="background-image:url('https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=700&q=80')">
+        <div class="emoji">💍</div>
+        <div class="service-num">01</div>
+      </div>
+      <div class="service-card-body">
+        <h3>Weddings & Shaadi</h3>
+        <p>Complete wedding design — from haldi & mehndi to the grand reception, shaped around your love story.</p>
+      </div>
+    </article>
+    <article class="service-card reveal">
+      <div class="service-card-img" style="background-image:url('https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=700&q=80')">
+        <div class="emoji">🏢</div>
+        <div class="service-num">02</div>
+      </div>
+      <div class="service-card-body">
+        <h3>Corporate Events</h3>
+        <p>Professional launches, conferences and brand experiences with a clear, impactful point of view.</p>
+      </div>
+    </article>
+    <article class="service-card reveal">
+      <div class="service-card-img" style="background-image:url('https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=700&q=80')">
+        <div class="emoji">🎂</div>
+        <div class="service-num">03</div>
+      </div>
+      <div class="service-card-body">
+        <h3>Social Celebrations</h3>
+        <p>Birthdays, anniversaries, baby showers and family milestones — personalized with joy.</p>
+      </div>
+    </article>
+    <article class="service-card reveal">
+      <div class="service-card-img" style="background-image:url('https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?auto=format&fit=crop&w=700&q=80')">
+        <div class="emoji">🎤</div>
+        <div class="service-num">04</div>
+      </div>
+      <div class="service-card-body">
+        <h3>Live & Special Events</h3>
+        <p>Entertainment shows, promotional events and productions — smoothly coordinated end to end.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery-section" id="work">
+  <div class="gallery-head reveal">
+    <div>
+      <div class="tag">📸 Our Work</div>
+      <h2>Moments Made to Last Forever</h2>
+    </div>
+    <a class="btn-primary" href="#contact">Create Yours ✨</a>
+  </div>
+  <div class="gallery-grid reveal">
+    <div class="g-item g1" role="img" aria-label="SP Events Planner - Indian wedding ceremony decoration"><div class="g-label"><small>A Day of Joy</small><strong>The Wedding Story</strong></div></div>
+    <div class="g-item g2" role="img" aria-label="SP Events Planner - elegant table and floral arrangements"><div class="g-label"><small>All in the Details</small><strong>Tables & Flowers</strong></div></div>
+    <div class="g-item g3" role="img" aria-label="SP Events Planner - grand evening celebration event"><div class="g-label"><small>Gathered Together</small><strong>Unforgettable Evenings</strong></div></div>
+    <div class="g-item g4" role="img" aria-label="SP Events Planner - birthday and anniversary celebration"><div class="g-label"><small>Little Reasons to Celebrate</small><strong>Life's Lovely Occasions</strong></div></div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process-section" id="process">
+  <div style="text-align:center;max-width:600px;margin:0 auto" class="reveal">
+    <div class="tag" style="justify-content:center">🗺️ How It Works</div>
+    <h2>From First Hello to Last Dance</h2>
+    <p style="color:rgba(255,255,255,.65);margin:0 auto">Simple steps, open conversations and a team that makes the whole journey feel easy and exciting.</p>
+  </div>
+  <div class="steps-grid">
+    <div class="step-card reveal">
+      <div class="step-icon">🙏</div>
+      <div class="step-num">01</div>
+      <h3>We Listen</h3>
+      <p>Tell us about your people, your vision and what matters most to you.</p>
+    </div>
+    <div class="step-card reveal">
+      <div class="step-icon">✨</div>
+      <div class="step-num">02</div>
+      <h3>We Imagine</h3>
+      <p>We craft a creative direction and a plan that feels uniquely yours.</p>
+    </div>
+    <div class="step-card reveal">
+      <div class="step-icon">🎨</div>
+      <div class="step-num">03</div>
+      <h3>We Build It</h3>
+      <p>Our team coordinates every moving part with care and precision.</p>
+    </div>
+    <div class="step-card reveal">
+      <div class="step-icon">🎉</div>
+      <div class="step-num">04</div>
+      <h3>You Celebrate</h3>
+      <p>Enjoy every moment. We'll be behind the scenes making it perfect.</p>
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE -->
+<div class="quote-section reveal">
+  <div class="quote-mark">"</div>
+  <blockquote>Har khushi mein rang bharo, har pal ko yaadgaar banao.<br><em style="font-size:.7em;color:rgba(255,255,255,.85)">Fill every joy with colour, make every moment unforgettable.</em></blockquote>
+  <cite>SP Events Planner · Gurugram, India 🇮🇳</cite>
+</div>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section" id="testimonials">
+  <div style="text-align:center;max-width:600px;margin:0 auto 50px" class="reveal">
+    <div class="tag" style="justify-content:center">💬 What Our Clients Say</div>
+    <h2>Real Stories, Real Celebrations</h2>
+    <p style="margin:0 auto">Hundreds of families across Gurugram and Delhi NCR have trusted us with their most special moments.</p>
+  </div>
+  <div class="testi-grid">
+    <div class="testi-card reveal">
+      <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+      <p class="testi-text">"SP Events Planner made our wedding absolutely magical. Every detail — from the floral mandap to the lighting — was perfect. Our guests are still talking about it!"</p>
+      <div class="testi-author">
+        <div class="testi-avatar">P</div>
+        <div>
+          <strong>Priya & Rahul Sharma</strong>
+          <small>Wedding · Gurugram, 2024</small>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card reveal">
+      <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+      <p class="testi-text">"We hired SP Events for our company's annual day and it was flawless. Professional team, on-time delivery and a stunning setup. Highly recommended for corporate events!"</p>
+      <div class="testi-author">
+        <div class="testi-avatar">A</div>
+        <div>
+          <strong>Amit Verma</strong>
+          <small>Corporate Event · Delhi NCR, 2024</small>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card reveal">
+      <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+      <p class="testi-text">"My daughter's birthday was a dream come true. The team understood exactly what we wanted and delivered beyond expectations. Bahut sundar kaam kiya!"</p>
+      <div class="testi-author">
+        <div class="testi-avatar">S</div>
+        <div>
+          <strong>Sunita Agarwal</strong>
+          <small>Birthday Celebration · Bhondsi, 2025</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-section" id="faq">
+  <div class="reveal" style="max-width:900px;margin:0 auto">
+    <div class="tag">❓ Common Questions</div>
+    <h2>Planning with SP Events Planner</h2>
+    <div class="faq-grid">
+      <div class="faq-item reveal" onclick="toggleFaq(this)">
+        <h3>What events do you organise? <span>+</span></h3>
+        <p>We organise weddings, engagements, corporate events, birthdays, anniversaries, private celebrations and event decor across Gurugram and Delhi NCR.</p>
+      </div>
+      <div class="faq-item reveal" onclick="toggleFaq(this)">
+        <h3>Where are you located? <span>+</span></h3>
+        <p>We are based at House No. 120, Road No. 1, Shyam Kunj, Bhondsi, Gurugram, Haryana 122102 and serve all of Delhi NCR.</p>
+      </div>
+      <div class="faq-item reveal" onclick="toggleFaq(this)">
+        <h3>How do I get in touch? <span>+</span></h3>
+        <p>Call us at +91 70489 55221 or +91 98991 24332, email s&amp;pweddingdecor@gmail.com, or fill the enquiry form on this page.</p>
+      </div>
+      <div class="faq-item reveal" onclick="toggleFaq(this)">
+        <h3>How do I find your location? <span>+</span></h3>
+        <p><a href="https://maps.google.com/?q=28.359369,77.072685" target="_blank" rel="noopener" style="color:var(--saffron);font-weight:600">Open in Google Maps ↗</a> — we're in Bhondsi, Gurugram, easily accessible from NH-48.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+  <div class="contact-grid">
+    <div class="contact-info reveal">
+      <div class="tag">🎊 Let's Connect</div>
+      <h2>Tell Us What You're Dreaming Of</h2>
+      <p>Share a few details and our team will reach out to discuss ideas, dates and what's possible for your celebration.</p>
+      <div class="contact-details">
+        <div class="contact-row">
+          <div class="icon">📍</div>
+          <span>House No. 120, Road No. 1, Shyam Kunj, Bhondsi, Gurugram, Haryana 122102</span>
+        </div>
+        <div class="contact-row">
+          <div class="icon">📞</div>
+          <span><a href="tel:+917048955221">+91 70489 55221</a> &nbsp;·&nbsp; <a href="tel:+919899124332">+91 98991 24332</a></span>
+        </div>
+        <div class="contact-row">
+          <div class="icon">✉️</div>
+          <span><a href="mailto:s&pweddingdecor@gmail.com">s&pweddingdecor@gmail.com</a></span>
+        </div>
+        <div class="contact-row">
+          <div class="icon">🗺️</div>
+          <span><a href="https://maps.google.com/?q=28.359369,77.072685" target="_blank" rel="noopener">View on Google Maps ↗</a></span>
+        </div>
+        <div class="contact-row">
+          <div class="icon">📱</div>
+          <span>
+            <a href="https://www.instagram.com/speventsplanner" target="_blank" rel="noopener">Instagram</a> &nbsp;·&nbsp;
+            <a href="https://www.facebook.com/speventsplanner" target="_blank" rel="noopener">Facebook</a> &nbsp;·&nbsp;
+            <a href="https://www.youtube.com/@speventsplanner" target="_blank" rel="noopener">YouTube</a>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="form-card reveal">
+      <h3>🌸 Send an Enquiry</h3>
+      <form id="enquiry">
+        <div class="form-grid">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input name="name" placeholder="What should we call you?" required/>
+          </div>
+          <div class="form-group">
+            <label>Phone Number</label>
+            <input name="phone" type="tel" placeholder="+91 XXXXX XXXXX" required/>
+          </div>
+          <div class="form-group wide">
+            <label>What Are You Celebrating?</label>
+            <select name="occasion">
+              <option>Wedding / Shaadi</option>
+              <option>Engagement</option>
+              <option>Birthday or Anniversary</option>
+              <option>Corporate Event</option>
+              <option>Private Celebration</option>
+              <option>Other Event</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Event Date</label>
+            <input name="date" type="date"/>
+          </div>
+          <div class="form-group">
+            <label>Guest Count</label>
+            <input name="guests" type="number" min="1" placeholder="Approx. number"/>
+          </div>
+          <div class="form-group wide">
+            <label>Anything Else?</label>
+            <textarea name="notes" placeholder="Venue ideas, theme, budget or anything on your mind..."></textarea>
+          </div>
+          <button class="btn-submit" type="submit">🎊 Send Enquiry</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <a class="logo" href="#home">
+      <div class="logo-icon">SP</div>
+      <div class="logo-text">
+        <strong style="color:#fff">SP EVENTS PLANNER</strong>
+        <small>All Types of Events Organised</small>
+      </div>
+    </a>
+    <div class="footer-tagline">A little thought, a lot of heart,<br>and a day that feels like yours. 🪔</div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 SP Events Planner · Gurugram, India 🇮🇳</span>
+    <div class="footer-links">
+      <a href="https://www.instagram.com/speventsplanner" target="_blank" rel="noopener">Instagram ↗</a>
+      <a href="https://www.facebook.com/speventsplanner" target="_blank" rel="noopener">Facebook ↗</a>
+      <a href="https://www.youtube.com/@speventsplanner" target="_blank" rel="noopener">YouTube ↗</a>
+      <a href="mailto:s&pweddingdecor@gmail.com">Email</a>
+      <a href="tel:+917048955221">Call</a>
+      <a href="#home">Top ↑</a>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp -->
+<a class="wa-btn" href="https://wa.me/919899124332?text=Hello%20SP%20Events%20Planner%2C%20I%27d%20love%20to%20plan%20an%20event." aria-label="WhatsApp">💬</a>
+
+<script>
+// Floating particles
+(function(){
+  const emojis=['🌸','🪔','✨','🌺','💐','🎊','🪷','⭐','🌼'];
+  const c=document.getElementById('particles');
+  for(let i=0;i<18;i++){
+    const p=document.createElement('div');
+    p.className='particle';
+    p.textContent=emojis[i%emojis.length];
+    p.style.cssText=`left:${Math.random()*100}%;font-size:${14+Math.random()*18}px;animation-duration:${8+Math.random()*12}s;animation-delay:${Math.random()*10}s`;
+    c.appendChild(p);
+  }
+})();
+
+// Mobile nav
+const ham=document.getElementById('hamburger'),mob=document.getElementById('mobileMenu');
+ham.addEventListener('click',()=>{mob.classList.toggle('open');ham.textContent=mob.classList.contains('open')?'×':'☰'});
+function closeMobile(){mob.classList.remove('open');ham.textContent='☰'}
+
+// Scroll reveal
+const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')})},{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+
+// FAQ toggle
+function toggleFaq(el){el.classList.toggle('open')}
+
+// Form submit
+document.getElementById('enquiry').addEventListener('submit',e=>{
+  e.preventDefault();
+  const d=new FormData(e.currentTarget);
+  const subject=`Event Enquiry: ${d.get('occasion')}`;
+  const body=`Hello SP Events Planner,\n\nI'd love to enquire about an event.\n\nName: ${d.get('name')}\nPhone: ${d.get('phone')}\nOccasion: ${d.get('occasion')}\nDate: ${d.get('date')||'Flexible'}\nGuests: ${d.get('guests')||'Not sure yet'}\nDetails: ${d.get('notes')||'Please get in touch.'}\n\nThank you.`;
+  window.location.href=`mailto:s%26pweddingdecor@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+});
+</script>
+</body>
 </html>
